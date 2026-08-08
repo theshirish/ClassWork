@@ -1,0 +1,8 @@
+streamlit==1.30.0
+pandas==2.15.2
+python-dotenv==1.0.0
+pydantic==2.10.9
+fastapi==0.140.0
+uvicorn==0.23.2
+
+# Additional libraries that might be needed for your FastAPI service 
