@@ -1,0 +1,9 @@
+{"timestamp": "2026-08-08T19:48:51.263832", "level": "INFO", "message": "Query received: {'query': 'What is python in 1 line'}"}
+{"timestamp": "2026-08-08T19:48:53.769742", "level": "INFO", "message": "Query: {'query': 'What is python in 1 line'}, Response: {'response': 'Python is a high-level programming language known for its simplicity and readability.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 14, 'total_tokens': 43, 'time_taken': 2.505485875008162}"}
+{"timestamp": "2026-08-08T19:52:39.015798", "level": "INFO", "message": "Query received: {'query': 'What is python in 1 line'}"}
+{"timestamp": "2026-08-08T19:52:41.382317", "level": "INFO", "message": "Query: {'query': 'What is python in 1 line'}, Response: {'response': 'Python is a high-level, interpreted programming language known for its simplicity and readability.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 16, 'total_tokens': 45, 'time_taken': 2.37}"}
+{"timestamp": "2026-08-08T19:53:36.777243", "level": "INFO", "message": "Root endpoint accessed"}
+{"timestamp": "2026-08-08T19:53:46.225169", "level": "INFO", "message": "First endpoint accessed"}
+{"timestamp": "2026-08-08T19:58:48.272937", "level": "INFO", "message": "User registration request received: {'name': 'Shirish Joshi', 'Age': 48, 'email': 'shirishbhau@gmail.com'}"}
+{"timestamp": "2026-08-08T19:58:56.487840", "level": "INFO", "message": "Query received: {'query': 'What is python in 1 line'}"}
+{"timestamp": "2026-08-08T19:59:00.431156", "level": "INFO", "message": "Query: {'query': 'What is python in 1 line'}, Response: {'response': 'Python is a high-level, interpreted programming language known for its simplicity and readability.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 16, 'total_tokens': 45, 'time_taken': 3.943}"}
