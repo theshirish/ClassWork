@@ -1,4 +1,4 @@
-import streamlit as st
+import my_streamlit as st
 
 st.title("Radhasoami ji. Welcome to the Streamlit service!")
 

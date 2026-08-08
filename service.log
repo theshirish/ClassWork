@@ -7,3 +7,585 @@
 {"timestamp": "2026-08-08T19:58:48.272937", "level": "INFO", "message": "User registration request received: {'name': 'Shirish Joshi', 'Age': 48, 'email': 'shirishbhau@gmail.com'}"}
 {"timestamp": "2026-08-08T19:58:56.487840", "level": "INFO", "message": "Query received: {'query': 'What is python in 1 line'}"}
 {"timestamp": "2026-08-08T19:59:00.431156", "level": "INFO", "message": "Query: {'query': 'What is python in 1 line'}, Response: {'response': 'Python is a high-level, interpreted programming language known for its simplicity and readability.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 16, 'total_tokens': 45, 'time_taken': 3.943}"}
+{"timestamp": "2026-08-08#21:06:47.651", "level": "INFO", "message": "Query received: {'query': 'What is the capital of France?', 'temp': 0.1, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:06:51.215", "level": "INFO", "message": "Query: {'query': 'What is the capital of France?', 'temp': 0.1, 'retries': 3}, Response: {'response': 'The capital of France is Paris. Is there anything else you would like to know?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 17, 'total_tokens': 46, 'time_taken': 3.563}"}
+{"timestamp": "2026-08-08#21:09:22.815", "level": "INFO", "message": "Query received: {'query': 'What is the capital of France?', 'temp': 0.1, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:09:25.343", "level": "INFO", "message": "Query: {'query': 'What is the capital of France?', 'temp': 0.1, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 14, 'total_tokens': 43, 'time_taken': 2.527}"}
+{"timestamp": "2026-08-08#21:31:23.196", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:31:23.196", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:32:10.806", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:33:31.194", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:35:25.383", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:37:37.984", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:38:54.921", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:38:54.921", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:53:32.352", "level": "INFO", "message": "Query received: {'query': 'plan text with line break', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:35.180", "level": "INFO", "message": "Query: {'query': 'plan text with line break', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Certainly! You can use the following format to add a line break in your text:\\n\\nThis is the first line.  \\nThis is the second line.\\n\\nJust remember to include two spaces at the end of the first line before pressing \"Enter\" to create the line break.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 27, 'completion_tokens': 54, 'total_tokens': 81, 'time_taken': 2.828}"}
+{"timestamp": "2026-08-08#21:53:35.554", "level": "INFO", "message": "Query received: {'query': 'play the song \"Dancing Vegetables\"', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:37.196", "level": "INFO", "message": "Query: {'query': 'play the song \"Dancing Vegetables\"', 'temp': 0.7, 'retries': 3}, Response: {'response': 'I\\'m sorry, but I can\\'t play specific songs. However, I can help you with information or recommendations about the song \"Dancing Vegetables.\" Just let me know how I can assist you further.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 31, 'completion_tokens': 42, 'total_tokens': 73, 'time_taken': 1.642}"}
+{"timestamp": "2026-08-08#21:53:37.214", "level": "INFO", "message": "Query received: {'query': 'show me image of cat', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:38.730", "level": "INFO", "message": "Query: {'query': 'show me image of cat', 'temp': 0.7, 'retries': 3}, Response: {'response': \"I'm sorry, but I am unable to display images. However, you can easily find images of cats by doing a quick search on the internet or on a search engine. Let me know if you need any further assistance.\", 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 27, 'completion_tokens': 45, 'total_tokens': 72, 'time_taken': 1.516}"}
+{"timestamp": "2026-08-08#21:53:38.746", "level": "INFO", "message": "Query received: {'query': 'and video of it', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:39.835", "level": "INFO", "message": "Query: {'query': 'and video of it', 'temp': 0.7, 'retries': 3}, Response: {'response': \"I'm sorry for the confusion. Could you please provide more context or specify what you are looking for a video of? I'll do my best to assist you further.\", 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 26, 'completion_tokens': 34, 'total_tokens': 60, 'time_taken': 1.089}"}
+{"timestamp": "2026-08-08#21:53:39.845", "level": "INFO", "message": "Query received: {'query': 'show me some markdown sample', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:41.930", "level": "INFO", "message": "Query: {'query': 'show me some markdown sample', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Of course! Here is an example of a simple markdown formatting:\\n  \\n- **Bold text**: `**This is bold text**`\\n- *Italic text*: `*This is italic text*`\\n- [Link](https://www.example.com): `[Link](https://www.example.com)`\\n- # Heading 1: `# Heading 1`\\n- ## Heading 2: `## Heading 2`\\n- - Bullet point: `- Bullet point`\\n\\nFeel free to explore more markdown syntax for formatting text and documents. Let me know if you need further assistance!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 27, 'completion_tokens': 114, 'total_tokens': 141, 'time_taken': 2.085}"}
+{"timestamp": "2026-08-08#21:53:41.948", "level": "INFO", "message": "Query received: {'query': 'table in markdown', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:53:43.859", "level": "INFO", "message": "Query: {'query': 'table in markdown', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Of course! Here is an example of how you can create a table in markdown:\\n\\n```\\n| Header 1 | Header 2 |\\n|----------|----------|\\n| Row 1, Col 1 | Row 1, Col 2 |\\n| Row 2, Col 1 | Row 2, Col 2 |\\n```\\n\\nJust replace \"Header 1\", \"Header 2\", and the row values with your own data to create your table. Let me know if you need any further assistance!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 104, 'total_tokens': 129, 'time_taken': 1.91}"}
+{"timestamp": "2026-08-08#21:54:01.502", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:54:01.502", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#21:54:01.520", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:54:04.022", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.502}"}
+{"timestamp": "2026-08-08#21:55:59.452", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:56:02.008", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.556}"}
+{"timestamp": "2026-08-08#21:56:41.245", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:56:43.893", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.648}"}
+{"timestamp": "2026-08-08#21:59:46.468", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#21:59:48.811", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.342}"}
+{"timestamp": "2026-08-08#22:00:17.719", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:00:20.302", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.583}"}
+{"timestamp": "2026-08-08#22:01:07.307", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:01:09.610", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.303}"}
+{"timestamp": "2026-08-08#22:01:16.938", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:01:16.960", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:01:18.709", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.749}"}
+{"timestamp": "2026-08-08#22:01:18.718", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:01:19.748", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.029}"}
+{"timestamp": "2026-08-08#22:03:13.914", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:03:16.176", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.262}"}
+{"timestamp": "2026-08-08#22:03:38.786", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:03:38.801", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:03:40.840", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.039}"}
+{"timestamp": "2026-08-08#22:03:40.851", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:03:41.967", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.116}"}
+{"timestamp": "2026-08-08#22:06:19.147", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:06:22.149", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 3.002}"}
+{"timestamp": "2026-08-08#22:08:28.839", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:08:30.947", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.108}"}
+{"timestamp": "2026-08-08#22:10:15.570", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:10:17.859", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.288}"}
+{"timestamp": "2026-08-08#22:12:09.152", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:12:11.893", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.741}"}
+{"timestamp": "2026-08-08#22:21:48.353", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:21:50.600", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.247}"}
+{"timestamp": "2026-08-08#22:22:08.254", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:22:10.859", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.605}"}
+{"timestamp": "2026-08-08#22:22:11.237", "level": "INFO", "message": "User input changed: Hello there"}
+{"timestamp": "2026-08-08#22:22:11.243", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:22:13.015", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.772}"}
+{"timestamp": "2026-08-08#22:22:13.031", "level": "INFO", "message": "Query received: {'query': 'Hello there', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:22:14.243", "level": "INFO", "message": "Query: {'query': 'Hello there', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 24, 'completion_tokens': 9, 'total_tokens': 33, 'time_taken': 1.211}"}
+{"timestamp": "2026-08-08#22:22:59.586", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:23:01.595", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.008}"}
+{"timestamp": "2026-08-08#22:23:18.897", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:23:18.922", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:23:20.777", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.855}"}
+{"timestamp": "2026-08-08#22:23:20.795", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:23:22.351", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.556}"}
+{"timestamp": "2026-08-08#22:27:17.602", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:27:20.179", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.576}"}
+{"timestamp": "2026-08-08#22:31:44.631", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:31:46.648", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.016}"}
+{"timestamp": "2026-08-08#22:35:21.838", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:35:24.897", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 3.058}"}
+{"timestamp": "2026-08-08#22:36:44.030", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:36:46.237", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.207}"}
+{"timestamp": "2026-08-08#22:38:12.571", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:38:14.980", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.403}"}
+{"timestamp": "2026-08-08#22:38:44.906", "level": "INFO", "message": "User input changed: What is the capital of India"}
+{"timestamp": "2026-08-08#22:38:44.927", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:38:47.226", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.299}"}
+{"timestamp": "2026-08-08#22:38:47.244", "level": "INFO", "message": "Query received: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:38:48.461", "level": "INFO", "message": "Query: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. Is there anything else you would like to know?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 18, 'total_tokens': 46, 'time_taken': 1.217}"}
+{"timestamp": "2026-08-08#22:39:08.121", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:39:08.121", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:39:08.140", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:39:10.293", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.152}"}
+{"timestamp": "2026-08-08#22:39:10.308", "level": "INFO", "message": "Query received: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:39:11.396", "level": "INFO", "message": "Query: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 1.088}"}
+{"timestamp": "2026-08-08#22:39:11.414", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:39:13.671", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 2.257}"}
+{"timestamp": "2026-08-08#22:43:41.846", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:43:44.216", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I help you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.369}"}
+{"timestamp": "2026-08-08#22:44:47.335", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:44:49.325", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.99}"}
+{"timestamp": "2026-08-08#22:45:02.015", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:45:02.028", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:45:03.755", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.727}"}
+{"timestamp": "2026-08-08#22:45:03.769", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:45:04.888", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.119}"}
+{"timestamp": "2026-08-08#22:49:16.299", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:49:18.455", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.156}"}
+{"timestamp": "2026-08-08#22:49:29.634", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:49:29.675", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:49:31.234", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.558}"}
+{"timestamp": "2026-08-08#22:49:31.254", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:49:32.400", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.146}"}
+{"timestamp": "2026-08-08#22:50:02.375", "level": "INFO", "message": "User input changed: What is the capital of India"}
+{"timestamp": "2026-08-08#22:50:02.375", "level": "INFO", "message": "User input changed: What is the capital of India"}
+{"timestamp": "2026-08-08#22:50:02.375", "level": "INFO", "message": "User input changed: What is the capital of India"}
+{"timestamp": "2026-08-08#22:50:02.401", "level": "INFO", "message": "Query received: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:50:04.604", "level": "INFO", "message": "Query: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 2.201}"}
+{"timestamp": "2026-08-08#22:50:18.622", "level": "INFO", "message": "User input changed: Shirish Joshi"}
+{"timestamp": "2026-08-08#22:50:18.622", "level": "INFO", "message": "User input changed: Shirish Joshi"}
+{"timestamp": "2026-08-08#22:50:18.622", "level": "INFO", "message": "User input changed: Shirish Joshi"}
+{"timestamp": "2026-08-08#22:50:18.622", "level": "INFO", "message": "User input changed: Shirish Joshi"}
+{"timestamp": "2026-08-08#22:50:18.639", "level": "INFO", "message": "Query received: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:50:20.666", "level": "INFO", "message": "Query: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 2.027}"}
+{"timestamp": "2026-08-08#22:50:20.689", "level": "INFO", "message": "Query received: {'query': 'Shirish Joshi', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:50:21.616", "level": "INFO", "message": "Query: {'query': 'Shirish Joshi', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How may I assist you today regarding Shirish Joshi?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 27, 'completion_tokens': 14, 'total_tokens': 41, 'time_taken': 0.926}"}
+{"timestamp": "2026-08-08#22:51:16.514", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:51:16.514", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:51:16.514", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:51:16.514", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:51:16.514", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#22:51:16.549", "level": "INFO", "message": "Query received: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:51:19.067", "level": "INFO", "message": "Query: {'query': 'What is the capital of India', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 2.517}"}
+{"timestamp": "2026-08-08#22:51:19.079", "level": "INFO", "message": "Query received: {'query': 'Shirish Joshi', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:51:20.157", "level": "INFO", "message": "Query: {'query': 'Shirish Joshi', 'temp': 0.7, 'retries': 3}, Response: {'response': \"Hello! How can I assist you today with Shirish Joshi's information or anything else?\", 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 27, 'completion_tokens': 19, 'total_tokens': 46, 'time_taken': 1.077}"}
+{"timestamp": "2026-08-08#22:51:20.168", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:51:21.318", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.15}"}
+{"timestamp": "2026-08-08#22:52:45.997", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:52:48.358", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.361}"}
+{"timestamp": "2026-08-08#22:52:57.490", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:52:57.503", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:52:59.208", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.704}"}
+{"timestamp": "2026-08-08#22:52:59.217", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:53:02.588", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. Is there anything else you would like to know about Paris or France?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 21, 'total_tokens': 49, 'time_taken': 3.371}"}
+{"timestamp": "2026-08-08#22:55:15.487", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:55:17.148", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.655}"}
+{"timestamp": "2026-08-08#22:57:06.406", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:57:09.256", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.85}"}
+{"timestamp": "2026-08-08#22:57:18.217", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:57:18.234", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:57:19.834", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.6}"}
+{"timestamp": "2026-08-08#22:57:19.851", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:57:21.469", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.618}"}
+{"timestamp": "2026-08-08#22:58:32.872", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:58:35.011", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.139}"}
+{"timestamp": "2026-08-08#22:58:42.908", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#22:58:42.925", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:58:44.575", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.65}"}
+{"timestamp": "2026-08-08#22:58:44.595", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#22:58:45.702", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.106}"}
+{"timestamp": "2026-08-08#23:01:36.984", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:01:39.025", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.04}"}
+{"timestamp": "2026-08-08#23:01:39.028", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:01:56.883", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:01:56.899", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:01:59.279", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.38}"}
+{"timestamp": "2026-08-08#23:01:59.281", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:01:59.281", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:01:59.294", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:02:00.507", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.213}"}
+{"timestamp": "2026-08-08#23:02:00.510", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:02:00.510", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:02:19.957", "level": "INFO", "message": "User input changed: what is python in 1 line"}
+{"timestamp": "2026-08-08#23:02:19.957", "level": "INFO", "message": "User input changed: what is python in 1 line"}
+{"timestamp": "2026-08-08#23:02:19.977", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:02:21.817", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.84}"}
+{"timestamp": "2026-08-08#23:02:21.819", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:02:21.819", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:02:21.819", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:02:21.834", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:02:23.412", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.578}"}
+{"timestamp": "2026-08-08#23:02:23.415", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:02:23.415", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:02:23.415", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:02:23.432", "level": "INFO", "message": "Query received: {'query': 'what is python in 1 line', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:02:24.672", "level": "INFO", "message": "Query: {'query': 'what is python in 1 line', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Python is a high-level programming language known for its simplicity and readability.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 29, 'completion_tokens': 14, 'total_tokens': 43, 'time_taken': 1.24}"}
+{"timestamp": "2026-08-08#23:02:24.674", "level": "INFO", "message": "Output from Open AI : Python is a high-level programming language known for its simplicity and readability."}
+{"timestamp": "2026-08-08#23:02:24.674", "level": "INFO", "message": "Output from Open AI : Python is a high-level programming language known for its simplicity and readability."}
+{"timestamp": "2026-08-08#23:02:24.674", "level": "INFO", "message": "Output from Open AI : Python is a high-level programming language known for its simplicity and readability."}
+{"timestamp": "2026-08-08#23:05:26.290", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:05:28.214", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.924}"}
+{"timestamp": "2026-08-08#23:05:28.216", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:05:37.971", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:05:37.986", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:05:39.772", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.785}"}
+{"timestamp": "2026-08-08#23:05:39.773", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:05:39.773", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:05:39.785", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:05:40.903", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.118}"}
+{"timestamp": "2026-08-08#23:05:40.904", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:05:40.904", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:05:51.973", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:05:51.973", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:05:51.973", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:05:51.987", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:05:53.906", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 1.919}"}
+{"timestamp": "2026-08-08#23:05:53.908", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:05:53.908", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:05:53.908", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:05:53.908", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:07:00.065", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:02.217", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.152}"}
+{"timestamp": "2026-08-08#23:07:02.220", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:11.364", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:07:11.380", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:13.676", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.296}"}
+{"timestamp": "2026-08-08#23:07:13.679", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:13.679", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:13.694", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:15.313", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. Is there anything else you would like to know?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 17, 'total_tokens': 45, 'time_taken': 1.619}"}
+{"timestamp": "2026-08-08#23:07:15.315", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else you would like to know?"}
+{"timestamp": "2026-08-08#23:07:15.315", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else you would like to know?"}
+{"timestamp": "2026-08-08#23:07:32.602", "level": "INFO", "message": "User input changed: 1+2"}
+{"timestamp": "2026-08-08#23:07:32.602", "level": "INFO", "message": "User input changed: 1+2"}
+{"timestamp": "2026-08-08#23:07:32.619", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:34.456", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.837}"}
+{"timestamp": "2026-08-08#23:07:34.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:34.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:34.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:07:34.464", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:35.588", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.124}"}
+{"timestamp": "2026-08-08#23:07:35.591", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:07:35.591", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:07:35.591", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:07:35.608", "level": "INFO", "message": "Query received: {'query': '1+2', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:07:36.849", "level": "INFO", "message": "Query: {'query': '1+2', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The sum of 1 + 2 is 3. If you have any other questions or need further assistance, feel free to ask!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 28, 'total_tokens': 53, 'time_taken': 1.241}"}
+{"timestamp": "2026-08-08#23:07:36.852", "level": "INFO", "message": "Output from Open AI : The sum of 1 + 2 is 3. If you have any other questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:07:36.852", "level": "INFO", "message": "Output from Open AI : The sum of 1 + 2 is 3. If you have any other questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:07:36.852", "level": "INFO", "message": "Output from Open AI : The sum of 1 + 2 is 3. If you have any other questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:10:09.944", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:12.068", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.124}"}
+{"timestamp": "2026-08-08#23:10:12.072", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:32.815", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:10:32.831", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:35.515", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.684}"}
+{"timestamp": "2026-08-08#23:10:35.517", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:35.517", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:35.533", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:36.679", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.146}"}
+{"timestamp": "2026-08-08#23:10:36.682", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:36.682", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:42.506", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:10:42.506", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:10:42.525", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:45.539", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 3.014}"}
+{"timestamp": "2026-08-08#23:10:45.542", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:45.542", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:45.542", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:45.557", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:47.081", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.524}"}
+{"timestamp": "2026-08-08#23:10:47.083", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:47.083", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:47.083", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:47.099", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:48.140", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.04}"}
+{"timestamp": "2026-08-08#23:10:48.143", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:10:48.143", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:10:48.143", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:10:57.209", "level": "INFO", "message": "User input changed: 1+#"}
+{"timestamp": "2026-08-08#23:10:57.209", "level": "INFO", "message": "User input changed: 1+#"}
+{"timestamp": "2026-08-08#23:10:57.209", "level": "INFO", "message": "User input changed: 1+#"}
+{"timestamp": "2026-08-08#23:10:57.223", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:10:58.837", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 1.613}"}
+{"timestamp": "2026-08-08#23:10:58.839", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:58.839", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:58.839", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:58.839", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:10:58.853", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:11:00.076", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.223}"}
+{"timestamp": "2026-08-08#23:11:00.078", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:11:00.078", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:11:00.078", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:11:00.078", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:11:00.088", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:11:01.214", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How may I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.126}"}
+{"timestamp": "2026-08-08#23:11:01.218", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:11:01.218", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:11:01.218", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:11:01.218", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:11:01.262", "level": "INFO", "message": "Query received: {'query': '1+#', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:11:02.499", "level": "INFO", "message": "Query: {'query': '1+#', 'temp': 0.7, 'retries': 3}, Response: {'response': 'It appears that you are trying to perform addition with the symbol \"+\", but an operand is missing. Could you please provide the number you would like to add to 1?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 24, 'completion_tokens': 35, 'total_tokens': 59, 'time_taken': 1.236}"}
+{"timestamp": "2026-08-08#23:11:02.502", "level": "INFO", "message": "Output from Open AI : It appears that you are trying to perform addition with the symbol \"+\", but an operand is missing. Could you please provide the number you would like to add to 1?"}
+{"timestamp": "2026-08-08#23:11:02.502", "level": "INFO", "message": "Output from Open AI : It appears that you are trying to perform addition with the symbol \"+\", but an operand is missing. Could you please provide the number you would like to add to 1?"}
+{"timestamp": "2026-08-08#23:11:02.502", "level": "INFO", "message": "Output from Open AI : It appears that you are trying to perform addition with the symbol \"+\", but an operand is missing. Could you please provide the number you would like to add to 1?"}
+{"timestamp": "2026-08-08#23:11:02.502", "level": "INFO", "message": "Output from Open AI : It appears that you are trying to perform addition with the symbol \"+\", but an operand is missing. Could you please provide the number you would like to add to 1?"}
+{"timestamp": "2026-08-08#23:11:27.602", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:11:27.602", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:11:27.602", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:11:27.602", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:11:27.602", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:11:27.629", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:11:29.569", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.94}"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:11:29.573", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:13:53.044", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:13:55.810", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.765}"}
+{"timestamp": "2026-08-08#23:13:55.812", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:05.389", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:14:05.406", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:07.255", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.849}"}
+{"timestamp": "2026-08-08#23:14:07.258", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:07.258", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:07.274", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:08.549", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.275}"}
+{"timestamp": "2026-08-08#23:14:08.551", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:08.551", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:25.630", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:14:25.630", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:14:25.659", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:27.333", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.674}"}
+{"timestamp": "2026-08-08#23:14:27.335", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:27.335", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:27.335", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:27.349", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:29.074", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.725}"}
+{"timestamp": "2026-08-08#23:14:29.076", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:29.076", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:29.076", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:29.091", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:30.386", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.295}"}
+{"timestamp": "2026-08-08#23:14:30.388", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:30.388", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:30.388", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:42.574", "level": "INFO", "message": "User input changed: 1*4"}
+{"timestamp": "2026-08-08#23:14:42.574", "level": "INFO", "message": "User input changed: 1*4"}
+{"timestamp": "2026-08-08#23:14:42.574", "level": "INFO", "message": "User input changed: 1*4"}
+{"timestamp": "2026-08-08#23:14:42.591", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:44.271", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.68}"}
+{"timestamp": "2026-08-08#23:14:44.273", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:44.273", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:44.273", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:44.273", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:44.287", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:45.412", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.124}"}
+{"timestamp": "2026-08-08#23:14:45.414", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:45.414", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:45.414", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:45.414", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:14:45.431", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:46.865", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.433}"}
+{"timestamp": "2026-08-08#23:14:46.867", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:46.867", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:46.867", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:46.867", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:14:46.882", "level": "INFO", "message": "Query received: {'query': '1*4', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:14:47.916", "level": "INFO", "message": "Query: {'query': '1*4', 'temp': 0.7, 'retries': 3}, Response: {'response': '1 multiplied by 4 equals 4. If you have any more questions or need further assistance, feel free to ask!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 25, 'total_tokens': 50, 'time_taken': 1.034}"}
+{"timestamp": "2026-08-08#23:14:47.918", "level": "INFO", "message": "Output from Open AI : 1 multiplied by 4 equals 4. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:14:47.918", "level": "INFO", "message": "Output from Open AI : 1 multiplied by 4 equals 4. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:14:47.918", "level": "INFO", "message": "Output from Open AI : 1 multiplied by 4 equals 4. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:14:47.918", "level": "INFO", "message": "Output from Open AI : 1 multiplied by 4 equals 4. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:15:55.024", "level": "INFO", "message": "User input changed: capital of india"}
+{"timestamp": "2026-08-08#23:15:55.024", "level": "INFO", "message": "User input changed: capital of india"}
+{"timestamp": "2026-08-08#23:15:55.024", "level": "INFO", "message": "User input changed: capital of india"}
+{"timestamp": "2026-08-08#23:15:55.024", "level": "INFO", "message": "User input changed: capital of india"}
+{"timestamp": "2026-08-08#23:15:55.024", "level": "INFO", "message": "User input changed: capital of india"}
+{"timestamp": "2026-08-08#23:15:55.050", "level": "INFO", "message": "Query received: {'query': 'capital of india', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:15:56.945", "level": "INFO", "message": "Query: {'query': 'capital of india', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of India is New Delhi. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 15, 'total_tokens': 40, 'time_taken': 1.894}"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:15:56.947", "level": "INFO", "message": "Output from Open AI : The capital of India is New Delhi. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:19:08.139", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:19:08.331", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:10.697", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Thank you! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 10, 'total_tokens': 33, 'time_taken': 2.366}"}
+{"timestamp": "2026-08-08#23:19:10.700", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:10.700", "level": "INFO", "message": "Output from Open AI : Thank you! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:20.458", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:19:20.458", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:19:20.477", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:22.454", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.976}"}
+{"timestamp": "2026-08-08#23:19:22.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:22.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:22.457", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:22.472", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:23.577", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How may I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.104}"}
+{"timestamp": "2026-08-08#23:19:23.578", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:19:23.578", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:19:23.578", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How may I assist you further?"}
+{"timestamp": "2026-08-08#23:19:39.174", "level": "INFO", "message": "User input changed: 1*3"}
+{"timestamp": "2026-08-08#23:19:39.174", "level": "INFO", "message": "User input changed: 1*3"}
+{"timestamp": "2026-08-08#23:19:39.174", "level": "INFO", "message": "User input changed: 1*3"}
+{"timestamp": "2026-08-08#23:19:39.190", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:41.108", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.917}"}
+{"timestamp": "2026-08-08#23:19:41.110", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:41.110", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:41.110", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:41.110", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:19:41.122", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:42.943", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. Is there anything else I can help you with?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 17, 'total_tokens': 45, 'time_taken': 1.82}"}
+{"timestamp": "2026-08-08#23:19:42.946", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else I can help you with?"}
+{"timestamp": "2026-08-08#23:19:42.946", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else I can help you with?"}
+{"timestamp": "2026-08-08#23:19:42.946", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else I can help you with?"}
+{"timestamp": "2026-08-08#23:19:42.946", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Is there anything else I can help you with?"}
+{"timestamp": "2026-08-08#23:19:42.961", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:19:44.489", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.526}"}
+{"timestamp": "2026-08-08#23:19:44.491", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:19:44.491", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:19:44.491", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:19:44.491", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:22:07.592", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:22:07.771", "level": "INFO", "message": "Query received: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:22:10.427", "level": "INFO", "message": "Query: {'query': 'Welcome', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.656}"}
+{"timestamp": "2026-08-08#23:22:10.430", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:22:10.430", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:22:59.391", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:22:59.507", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:02.473", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.966}"}
+{"timestamp": "2026-08-08#23:23:02.476", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:02.476", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:06.881", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:23:06.881", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:23:06.896", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:07.858", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 0.962}"}
+{"timestamp": "2026-08-08#23:23:07.861", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:07.861", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:07.861", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:07.874", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:08.977", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 15, 'total_tokens': 43, 'time_taken': 1.103}"}
+{"timestamp": "2026-08-08#23:23:08.979", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:23:08.979", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:23:08.979", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further today?"}
+{"timestamp": "2026-08-08#23:23:21.514", "level": "INFO", "message": "User input changed: 1+167"}
+{"timestamp": "2026-08-08#23:23:21.514", "level": "INFO", "message": "User input changed: 1+167"}
+{"timestamp": "2026-08-08#23:23:21.514", "level": "INFO", "message": "User input changed: 1+167"}
+{"timestamp": "2026-08-08#23:23:21.531", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:24.445", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.913}"}
+{"timestamp": "2026-08-08#23:23:24.448", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:24.448", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:24.448", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:24.448", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:23:24.464", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:25.874", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. Let me know if you need any more information.', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 17, 'total_tokens': 45, 'time_taken': 1.41}"}
+{"timestamp": "2026-08-08#23:23:25.876", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Let me know if you need any more information."}
+{"timestamp": "2026-08-08#23:23:25.876", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Let me know if you need any more information."}
+{"timestamp": "2026-08-08#23:23:25.876", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Let me know if you need any more information."}
+{"timestamp": "2026-08-08#23:23:25.876", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. Let me know if you need any more information."}
+{"timestamp": "2026-08-08#23:23:25.891", "level": "INFO", "message": "Query received: {'query': '1+167', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:23:26.999", "level": "INFO", "message": "Query: {'query': '1+167', 'temp': 0.7, 'retries': 3}, Response: {'response': '1 + 167 equals 168. Let me know if you need help with anything else!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 19, 'total_tokens': 44, 'time_taken': 1.108}"}
+{"timestamp": "2026-08-08#23:23:27.001", "level": "INFO", "message": "Output from Open AI : 1 + 167 equals 168. Let me know if you need help with anything else!"}
+{"timestamp": "2026-08-08#23:23:27.001", "level": "INFO", "message": "Output from Open AI : 1 + 167 equals 168. Let me know if you need help with anything else!"}
+{"timestamp": "2026-08-08#23:23:27.001", "level": "INFO", "message": "Output from Open AI : 1 + 167 equals 168. Let me know if you need help with anything else!"}
+{"timestamp": "2026-08-08#23:23:27.001", "level": "INFO", "message": "Output from Open AI : 1 + 167 equals 168. Let me know if you need help with anything else!"}
+{"timestamp": "2026-08-08#23:25:50.003", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:25:50.115", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:25:52.535", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.419}"}
+{"timestamp": "2026-08-08#23:25:52.537", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:25:52.537", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:25:56.513", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:25:56.513", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:25:56.533", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:25:57.658", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.125}"}
+{"timestamp": "2026-08-08#23:25:57.660", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:25:57.660", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:25:57.660", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:25:57.675", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:25:58.667", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 0.992}"}
+{"timestamp": "2026-08-08#23:25:58.669", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:25:58.669", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:25:58.669", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:26:05.168", "level": "INFO", "message": "User input changed: 2*3"}
+{"timestamp": "2026-08-08#23:26:05.168", "level": "INFO", "message": "User input changed: 2*3"}
+{"timestamp": "2026-08-08#23:26:05.168", "level": "INFO", "message": "User input changed: 2*3"}
+{"timestamp": "2026-08-08#23:26:05.188", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:26:06.896", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.707}"}
+{"timestamp": "2026-08-08#23:26:06.899", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:26:06.899", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:26:06.899", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:26:06.899", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:26:06.916", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:26:08.073", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.157}"}
+{"timestamp": "2026-08-08#23:26:08.074", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:26:08.074", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:26:08.074", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:26:08.074", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:26:08.081", "level": "INFO", "message": "Query received: {'query': '2*3', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:26:09.823", "level": "INFO", "message": "Query: {'query': '2*3', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The answer to 2 multiplied by 3 is 6. If you need any more help with math or have any other questions, feel free to ask!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 32, 'total_tokens': 57, 'time_taken': 1.742}"}
+{"timestamp": "2026-08-08#23:26:09.825", "level": "INFO", "message": "Output from Open AI : The answer to 2 multiplied by 3 is 6. If you need any more help with math or have any other questions, feel free to ask!"}
+{"timestamp": "2026-08-08#23:26:09.825", "level": "INFO", "message": "Output from Open AI : The answer to 2 multiplied by 3 is 6. If you need any more help with math or have any other questions, feel free to ask!"}
+{"timestamp": "2026-08-08#23:26:09.825", "level": "INFO", "message": "Output from Open AI : The answer to 2 multiplied by 3 is 6. If you need any more help with math or have any other questions, feel free to ask!"}
+{"timestamp": "2026-08-08#23:26:09.825", "level": "INFO", "message": "Output from Open AI : The answer to 2 multiplied by 3 is 6. If you need any more help with math or have any other questions, feel free to ask!"}
+{"timestamp": "2026-08-08#23:35:06.540", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:36:44.230", "level": "INFO", "message": "Query received: {'query': 'Hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:36:46.556", "level": "INFO", "message": "Query: {'query': 'Hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.326}"}
+{"timestamp": "2026-08-08#23:36:46.558", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:36:54.500", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:36:54.515", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:36:56.087", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.572}"}
+{"timestamp": "2026-08-08#23:36:56.089", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:36:56.089", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:37:03.876", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:37:03.876", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:37:03.893", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:37:05.810", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.917}"}
+{"timestamp": "2026-08-08#23:37:05.812", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:37:05.812", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:37:05.812", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:20.052", "level": "INFO", "message": "User input changed: hello"}
+{"timestamp": "2026-08-08#23:38:20.167", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:22.411", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 2.243}"}
+{"timestamp": "2026-08-08#23:38:22.413", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:22.413", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:26.080", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:38:26.080", "level": "INFO", "message": "User input changed: What is the capital of france"}
+{"timestamp": "2026-08-08#23:38:26.089", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:27.212", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.123}"}
+{"timestamp": "2026-08-08#23:38:27.214", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:27.214", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:27.214", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:27.225", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:28.239", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.014}"}
+{"timestamp": "2026-08-08#23:38:28.241", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:28.241", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:28.241", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:33.547", "level": "INFO", "message": "User input changed: 2*4"}
+{"timestamp": "2026-08-08#23:38:33.547", "level": "INFO", "message": "User input changed: 2*4"}
+{"timestamp": "2026-08-08#23:38:33.547", "level": "INFO", "message": "User input changed: 2*4"}
+{"timestamp": "2026-08-08#23:38:33.556", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:35.039", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.483}"}
+{"timestamp": "2026-08-08#23:38:35.041", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:35.041", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:35.041", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:35.041", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:35.056", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:36.324", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.268}"}
+{"timestamp": "2026-08-08#23:38:36.325", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:36.325", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:36.325", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:36.325", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:36.333", "level": "INFO", "message": "Query received: {'query': '2*4', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:37.974", "level": "INFO", "message": "Query: {'query': '2*4', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The result of 2 * 4 is 8. Is there anything else you would like to know or calculate?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 24, 'total_tokens': 49, 'time_taken': 1.64}"}
+{"timestamp": "2026-08-08#23:38:37.976", "level": "INFO", "message": "Output from Open AI : The result of 2 * 4 is 8. Is there anything else you would like to know or calculate?"}
+{"timestamp": "2026-08-08#23:38:37.976", "level": "INFO", "message": "Output from Open AI : The result of 2 * 4 is 8. Is there anything else you would like to know or calculate?"}
+{"timestamp": "2026-08-08#23:38:37.976", "level": "INFO", "message": "Output from Open AI : The result of 2 * 4 is 8. Is there anything else you would like to know or calculate?"}
+{"timestamp": "2026-08-08#23:38:37.976", "level": "INFO", "message": "Output from Open AI : The result of 2 * 4 is 8. Is there anything else you would like to know or calculate?"}
+{"timestamp": "2026-08-08#23:38:49.287", "level": "INFO", "message": "User input changed: quit"}
+{"timestamp": "2026-08-08#23:38:49.287", "level": "INFO", "message": "User input changed: quit"}
+{"timestamp": "2026-08-08#23:38:49.287", "level": "INFO", "message": "User input changed: quit"}
+{"timestamp": "2026-08-08#23:38:49.287", "level": "INFO", "message": "User input changed: quit"}
+{"timestamp": "2026-08-08#23:38:49.305", "level": "INFO", "message": "Query received: {'query': 'hello', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:50.969", "level": "INFO", "message": "Query: {'query': 'hello', 'temp': 0.7, 'retries': 3}, Response: {'response': 'Hello! How can I assist you today?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 9, 'total_tokens': 32, 'time_taken': 1.665}"}
+{"timestamp": "2026-08-08#23:38:50.972", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:50.972", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:50.972", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:50.972", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:50.972", "level": "INFO", "message": "Output from Open AI : Hello! How can I assist you today?"}
+{"timestamp": "2026-08-08#23:38:50.987", "level": "INFO", "message": "Query received: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:52.152", "level": "INFO", "message": "Query: {'query': 'What is the capital of france', 'temp': 0.7, 'retries': 3}, Response: {'response': 'The capital of France is Paris. How can I assist you further?', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 28, 'completion_tokens': 14, 'total_tokens': 42, 'time_taken': 1.165}"}
+{"timestamp": "2026-08-08#23:38:52.154", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:52.154", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:52.154", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:52.154", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:52.154", "level": "INFO", "message": "Output from Open AI : The capital of France is Paris. How can I assist you further?"}
+{"timestamp": "2026-08-08#23:38:52.169", "level": "INFO", "message": "Query received: {'query': '2*4', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:53.530", "level": "INFO", "message": "Query: {'query': '2*4', 'temp': 0.7, 'retries': 3}, Response: {'response': '2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!', 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 25, 'completion_tokens': 27, 'total_tokens': 52, 'time_taken': 1.36}"}
+{"timestamp": "2026-08-08#23:38:53.532", "level": "INFO", "message": "Output from Open AI : 2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:38:53.532", "level": "INFO", "message": "Output from Open AI : 2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:38:53.532", "level": "INFO", "message": "Output from Open AI : 2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:38:53.532", "level": "INFO", "message": "Output from Open AI : 2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:38:53.532", "level": "INFO", "message": "Output from Open AI : 2 multiplied by 4 is equal to 8. If you have any more questions or need further assistance, feel free to ask!"}
+{"timestamp": "2026-08-08#23:38:53.547", "level": "INFO", "message": "Query received: {'query': 'quit', 'temp': 0.7, 'retries': 3}"}
+{"timestamp": "2026-08-08#23:38:54.664", "level": "INFO", "message": "Query: {'query': 'quit', 'temp': 0.7, 'retries': 3}, Response: {'response': \"I'm here to help you. If you have any questions or need assistance, feel free to ask.\", 'model': 'gpt-3.5-turbo-0125', 'prompt_tokens': 23, 'completion_tokens': 21, 'total_tokens': 44, 'time_taken': 1.117}"}
+{"timestamp": "2026-08-08#23:38:54.666", "level": "INFO", "message": "Output from Open AI : I'm here to help you. If you have any questions or need assistance, feel free to ask."}
+{"timestamp": "2026-08-08#23:38:54.666", "level": "INFO", "message": "Output from Open AI : I'm here to help you. If you have any questions or need assistance, feel free to ask."}
+{"timestamp": "2026-08-08#23:38:54.666", "level": "INFO", "message": "Output from Open AI : I'm here to help you. If you have any questions or need assistance, feel free to ask."}
+{"timestamp": "2026-08-08#23:38:54.666", "level": "INFO", "message": "Output from Open AI : I'm here to help you. If you have any questions or need assistance, feel free to ask."}
+{"timestamp": "2026-08-08#23:38:54.666", "level": "INFO", "message": "Output from Open AI : I'm here to help you. If you have any questions or need assistance, feel free to ask."}

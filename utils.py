@@ -2,10 +2,13 @@ import asyncio
 import logging
 import time
 import os
+import httpx
+
+from turtle import st
 from urllib import response
 
-from openai import AsyncOpenAI
 from settings import my_settings
+from openai import AsyncOpenAI
 from logging import Logger
 
 logger: Logger = logging.getLogger("my_logger")
@@ -61,3 +64,25 @@ async def stream_answer(question: str):
     for word in answer.split():
         yield f"{word} "
         await asyncio.sleep(0.1)
+
+
+def get_ai_answer_for_simple_ui(user_input: str, temperature: float = 0.7, retries: int = my_settings.open_ai_retries) -> str:
+    # print("user_input isssssssssss : {user_input}")
+    endpoint = "http://127.0.0.1:8000/chat"
+    params = {}
+    body = {
+        "query": user_input,
+        "temp": temperature,
+        "retries": retries
+    }
+
+    try:
+        with httpx.Client() as client:
+            # print(f"in get_ai_answer_for_simple_ui : {body}")
+            response = client.post(endpoint, json=body, params=params)
+            response.raise_for_status()  # Raise an exception for HTTP errors
+            data = response.json()
+            # print(f"Response from FastAPI service: {data}")
+            return data['response']
+    except httpx.RequestError as e:
+        print(f"An error occurred while requesting {e.request.url!r}.")

@@ -22,12 +22,12 @@ def setup_logger(name="MyLogger",  level=logging.INFO):
     handler_f = logging.FileHandler("service.log")
     handler_f.setFormatter(CustomJsonFormatter())
 
-    # handler = logging.StreamHandler()
-    # handler.setFormatter(CustomJsonFormatter())
+    handler = logging.StreamHandler()
+    handler.setFormatter(CustomJsonFormatter())
 
     logger = logging.getLogger(name)
     logger.setLevel(level)
     logger.addHandler(handler_f)
-    # logger.addHandler(handler)
+    logger.addHandler(handler)
 
     return logger

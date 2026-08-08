@@ -47,7 +47,7 @@ async def ai_chat(query: dict):
     response = await utl.call_open_ai(query.get("query", ""))
     # print(f"Response from OpenAI: {response}")
     logger.info(f"Query: {query}, Response: {response}")
-    return {"message": "Your query was {query}", "response": response["response"]}
+    return {"message": f"Your query was {query}", "response": response["response"]}
 
 
 class Question(BaseModel):
