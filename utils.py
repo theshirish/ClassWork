@@ -4,6 +4,8 @@ import time
 import os
 import httpx
 
+from unittest.mock import MagicMock, AsyncMock
+
 from turtle import st
 from urllib import response
 
@@ -86,3 +88,48 @@ def get_ai_answer_for_simple_ui(user_input: str, temperature: float = 0.7, retri
             return data['response']
     except httpx.RequestError as e:
         print(f"An error occurred while requesting {e.request.url!r}.")
+
+
+async def calculate_interest(principal: float, rate: float, time: float) -> dict:
+    interest = (principal * rate * time)/100
+    total_repayable = principal + interest
+    return {
+        "interest": round(interest, 2),
+        "total_amount": total_repayable
+
+    }
+
+
+async def fetch_stock_data(symbol: str, interval: str = "5min", apikey: str = 'demo') -> dict:
+    # https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo
+
+    url = "https://www.alphavantage.co/query"
+    params = {
+        "function": "TIME_SERIES_INTRADAY",
+        "symbol": symbol,
+        "interval": interval,
+        "apikey": apikey
+
+    }
+
+    try:
+        with httpx.Client() as client:
+            # print(f"in get_ai_answer_for_simple_ui : {body}")
+            # response = client.post(url, json=body, params=params)
+            response = client.get(url, params=params) # (url, json=body, params=params)
+            
+            response.raise_for_status()  # Raise an exception for HTTP errors
+            data = response.json()
+            # ele = f"Time Series ({interval})"
+            # print(ele)
+            # # print(f"Response from FastAPI service: {data}")
+            # return data[ele]
+            return data
+    except httpx.RequestError as e:
+        print(f"An error occurred while requesting {e.request.url!r}.")
+
+
+# resp =  fetch_stock_data("IBM", "5min")
+# # print(resp)
+# print(resp['2026-08-07 19:55:00'])
+

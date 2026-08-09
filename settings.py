@@ -1,3 +1,5 @@
+import os
+
 from pydantic import BaseModel, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -13,7 +15,8 @@ class Settings(BaseSettings):
     # name_max_length: int = Field(description="Maximum length for user name")
 
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=os.path.join(os.path.dirname(
+            os.path.abspath(__file__)), ".env"),
         env_file_encoding="utf-8"
     )
 
