@@ -4,6 +4,10 @@ import time
 import os
 import httpx
 
+from pydantic import BaseModel, Field
+from typing import List
+import json
+
 from unittest.mock import MagicMock, AsyncMock
 
 from turtle import st
@@ -14,6 +18,22 @@ from openai import AsyncOpenAI
 from logging import Logger
 
 logger: Logger = logging.getLogger("my_logger")
+
+class Answer(BaseModel) :
+    content: str = Field(description="The main answer content")
+    confidence: float = Field(description="Confidence score between 0.0 and 1.0.")
+    sources: List[str] = Field(description="List of sources or references used.")
+
+message = [{"role" : "system", "content" :  """Answer the user question in the JSON format which contains keys like content, confidence (Score bw 0-1), sources (Reference source)
+sample output
+{
+"content": "<the real response>",
+"confidence": <the confidence score range bw 0-1>,
+"sources": ["<source1>", "<source2>"]
+}
+"""},
+{"role" : "user", "content" :  "X"}]
+
 
 
 client = AsyncOpenAI(
@@ -52,6 +72,46 @@ async def call_open_ai(user_input: str,
             }
             logger.info(f"OpenAI API response: {final_reponse}")
             return final_reponse
+        except Exception as e:
+            if attempt < retries - 1:
+                await asyncio.sleep(2 ** attempt)  # Exponential backoff
+            else:
+                raise e
+
+async def call_open_ai_with_st_op1(user_input: str,
+                       temperature: float = 0.7,
+                       retries: int = my_settings.open_ai_retries) -> str:
+    for attempt in range(retries):
+        try:
+            # message[1].["content"] = user_input
+            # print(f"message is : {message}")
+            for msg in message:
+                # print(f"msssssssssssssssssg = {msg}")
+                if msg.get("role") == "user":
+                    msg["content"] = "What is the inflation rate of India?"
+                    # print(f"UPDATED msssssssssssssssssg = {msg}")
+                    break 
+            # print(f"FIIIIIIIIIIINAL message is : {message}")
+            start_time = time.perf_counter()
+            logger.info(f"Calling OpenAI API with user input: {user_input}")
+            response = await client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=message,
+                temperature=temperature,
+                response_format={"type": "json_object"}
+            )
+            end_time = time.perf_counter()
+            print(f"OpenAI API call took {end_time - start_time:.2f} seconds")
+            # print(f"Response: {response}")
+            output = response.choices[0].message.content
+            # print(f"output iiiiiiiiis {output}")
+            json_output = json.loads(output)
+            # json_output = json.dumps(output)
+            # print(f"json_output iiiiiiiiis {json_output}")
+
+            ans = Answer.model_validate(json_output)
+            logger.info(f"call_open_ai_with_st_op1 response : {ans}")
+            return ans
         except Exception as e:
             if attempt < retries - 1:
                 await asyncio.sleep(2 ** attempt)  # Exponential backoff
