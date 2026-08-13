@@ -5,16 +5,22 @@ from pydantic import BaseModel, Field
 
 # import settings
 
+import asyncio
+
 from settings import my_settings
+import utils as utl
+
+anss =  utl.call_open_ai_with_st_op1("How is the growth rate of India ?")
+print(anss)
 
 # import os
 # from dotenv import load_dotenv
 
 print("Environment:", my_settings.env)
-print("OpenAI API Key:", my_settings.openai_api_key)
+print("OpenAI API Key:", my_settings.open_ai_api_key)
 print("OpenAI Base URL:", my_settings.open_ai_base_url)
-print("Name Min Length:", my_settings.name_min_length)
-print("Name Max Length:", my_settings.name_max_length)
+# print("Name Min Length:", my_settings.name_min_length)
+# print("Name Max Length:", my_settings.name_max_length)
 
 # load_dotenv('.env')
 # print(os.getenv('OPENAI_API_KEY'))
