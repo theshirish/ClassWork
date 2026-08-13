@@ -97,8 +97,8 @@ async def call_open_ai_with_st_op1(user_input: str,
             response = await client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=message,
-                temperature=temperature,
-                response_format={"type": "json_object"}
+                temperature=temperature
+                # response_format={"type": "json_object"}
             )
             end_time = time.perf_counter()
             print(f"OpenAI API call took {end_time - start_time:.2f} seconds")
@@ -111,6 +111,122 @@ async def call_open_ai_with_st_op1(user_input: str,
 
             ans = Answer.model_validate(json_output)
             logger.info(f"call_open_ai_with_st_op1 response : {ans}")
+            return ans
+        except Exception as e:
+            if attempt < retries - 1:
+                await asyncio.sleep(2 ** attempt)  # Exponential backoff
+            else:
+                raise e
+
+
+async def call_open_ai_with_st_op2(user_input: str,
+                       temperature: float = 0.7,
+                       retries: int = my_settings.open_ai_retries) -> str:
+    for attempt in range(retries):
+        try:
+            # message[1].["content"] = user_input
+            # print(f"message is : {message}")
+            for msg in message:
+                # print(f"msssssssssssssssssg = {msg}")
+                if msg.get("role") == "user":
+                    msg["content"] = "What is the inflation rate of India?"
+                    # print(f"UPDATED msssssssssssssssssg = {msg}")
+                    break 
+            # print(f"FIIIIIIIIIIINAL message is : {message}")
+            start_time = time.perf_counter()
+            logger.info(f"Calling OpenAI API with user input: {user_input}")
+            response = await client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=message,
+                temperature=temperature,
+                response_format={"type": "json_object"} #mentioning the format to be explicitly json-object
+            )
+            end_time = time.perf_counter()
+            print(f"OpenAI API call took {end_time - start_time:.2f} seconds")
+            # print(f"Response: {response}")
+            output = response.choices[0].message.content
+            # print(f"output iiiiiiiiis {output}")
+            json_output = json.loads(output)
+            # json_output = json.dumps(output)
+            # print(f"json_output iiiiiiiiis {json_output}")
+
+            ans = Answer.model_validate(json_output)
+            logger.info(f"call_open_ai_with_st_op2 response : {ans}")
+            return ans
+        except Exception as e:
+            if attempt < retries - 1:
+                await asyncio.sleep(2 ** attempt)  # Exponential backoff
+            else:
+                raise e
+
+
+async def call_open_ai_with_st_op3(user_input: str,
+                       temperature: float = 0.7,
+                       retries: int = my_settings.open_ai_retries) -> str:
+    my_tool = [
+    {
+            "type": "function",
+            "function": {
+                "name": "answer_user_question",
+                "description": "Provide a structured answer to the user's question",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "content": {
+                            "type": "string",
+                            "description": "The main answer content."
+                        },
+                        "confidence": {
+                            "type": "number",
+                            "description": "Confidence score between 0.0 and 1.0."
+                        },
+                        "sources": {
+                            "type": "array",
+                            "description": "List of sources or references used",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+
+                    "required": ["content", "confidence", "sources"]
+                }
+            }
+        }
+    ]
+
+    for attempt in range(retries):
+        try:
+            # message[1].["content"] = user_input
+            # print(f"message is : {message}")
+            for msg in message:
+                # print(f"msssssssssssssssssg = {msg}")
+                if msg.get("role") == "user":
+                    msg["content"] = "What is the inflation rate of India?"
+                    # print(f"UPDATED msssssssssssssssssg = {msg}")
+                    break 
+            # print(f"FIIIIIIIIIIINAL message is : {message}")
+            start_time = time.perf_counter()
+            logger.info(f"Calling OpenAI API with user input: {user_input}")
+            response = await client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=message,
+                temperature=temperature,
+                tools=my_tool,
+                tool_choice={"type":"function", "function":{"name":"answer_user_question"}}
+            )
+            end_time = time.perf_counter()
+            print(f"OpenAI API call took {end_time - start_time:.2f} seconds")
+            # print(f"Response: {response}")
+            tool_call = response.choices[0].message.tool_calls[0]
+            output = tool_call.function.arguments
+            print(f"output iiiiiiiiis {output}")
+            json_output = json.loads(output)
+            # json_output = json.dumps(output)
+            print(f"json_output iiiiiiiiis {json_output}")
+
+            ans = Answer.model_validate(json_output)
+            logger.info(f"call_open_ai_with_st_op2 response : {ans}")
             return ans
         except Exception as e:
             if attempt < retries - 1:
